@@ -1,4 +1,3 @@
-hello
 # Group 8 - Members:
 ### Sue Puthearath
 ### Seat Daro
