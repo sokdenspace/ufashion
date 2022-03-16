@@ -1,8 +1,8 @@
 # Group 8 - Members:
-# Sue Puthearath
-# Seat Daro
-# Heng TiTi
-# Sok Den
+### Sue Puthearath
+### Seat Daro
+### Heng TiTi
+### Sok Den
 
 # Getting Started with Create React App
 
