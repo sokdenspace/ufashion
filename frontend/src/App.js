@@ -15,13 +15,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello React<br/>
-          Hello React<br/>
-          Hello React<br/>
-          Hello React<br/>
-          Hello React<br/>
-          Hello React<br/>
-          Hello React<br/>
+          Hi React<br/>
+          Hi React<br/>
+          Hi React<br/>
+          Hi React<br/>
+          Hi React<br/>
+          Hi React<br/>
+          Hi React<br/>
         </a>
       </header>
     </div>
