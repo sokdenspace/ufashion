@@ -8,13 +8,11 @@ const cors = require("cors")
 app.use (
 	cors ({
 		origin: "*",
-		methods: ['GET','POST','DELETE','UPDATE','PUT','PATCH']
 	})
 )
 
 // Function to serve all static files
-app.use(express.static(__dirname));
-// app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 // sendFile will go here
 app.get('/', function(req, res) {
@@ -39,14 +37,6 @@ app.get('/detail', function(req, res) {
 
 app.get('/contact', function(req, res) {
   res.sendfile(path.join(__dirname, './public/contact.html'));
-});
-
-app.get('/checkout', function(req, res) {
-  res.sendfile(path.join(__dirname, './public/checkout.html'));
-});
-
-app.get('/cart', function(req, res) {
-	res.sendfile(path.join(__dirname, './public/cart.html'));
 });
 
 app.listen(port);
