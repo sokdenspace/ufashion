@@ -5,8 +5,8 @@
 ### Sok Den
 
 ## GitHub
-`GitHub: https://github.com/sokdenspace/ufashion.git`
-`Clone: git clone https://github.com/sokdenspace/ufashion.git`
+- GitHub: https://github.com/sokdenspace/ufashion.git
+- Clone: git clone https://github.com/sokdenspace/ufashion.git
 
 ## NodeJS Command-line
 ### `npm start`
