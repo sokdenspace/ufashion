@@ -4,13 +4,12 @@
 ### Heng TiTi
 ### Sok Den
 
-In the project directory, you can run:
+## GitHub
+`GitHub: https://github.com/sokdenspace/ufashion.git`
+`Clone: git clone https://github.com/sokdenspace/ufashion.git`
 
 ## NodeJS Command-line
-
 ### `npm start`
-### `npm run build`
 
 ## Laravel Command-line
-
 ### `composer install`
