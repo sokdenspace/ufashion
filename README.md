@@ -8,13 +8,13 @@
 - GitHub: https://github.com/sokdenspace/ufashion.git
 - Clone: git clone https://github.com/sokdenspace/ufashion.git
 
-## ---------- Laravel api ----------
+**Laravel api**
 ### Generate laravel utilizes composer to manage its dependencies
 - composer install
 ### Run laravel
 - php artisan serve
 
-## ---------- Django frontend ----------
+**Django frontend**
 ## 'Django frontend requirements'
 ### Install python
 
