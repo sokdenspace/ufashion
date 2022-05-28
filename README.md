@@ -8,26 +8,26 @@
 - GitHub: https://github.com/sokdenspace/ufashion.git
 - Clone: git clone https://github.com/sokdenspace/ufashion.git
 
-```diff
-- Laravel api
-```
-### Generate laravel utilizes composer to manage its dependencies
-- composer install
-### Run laravel
-- php artisan serve
+# Laravel api
 
-**Django frontend**
-## 'Django frontend requirements'
-### Install python
+- Generate laravel utilizes composer to manage its dependencies
+1. composer install
+- Run laravel
+2. php artisan serve
+
+# Django frontend
+
+### Django frontend requirements
+1. Install python
 
 ### Create python virtual environment
-- python -m venv venv
+2. python -m venv venv
 
 ### Windows Activate virtualenv
-- venv/Scripts/activate
+3. venv/Scripts/activate
 
 ### Linux Activate virtualenv
-- source venv/bin/activate
+3. source venv/bin/activate
 
 ### Generate requirements.txt file
 - pip freeze > requirements
