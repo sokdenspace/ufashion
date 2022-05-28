@@ -1,8 +1,8 @@
 # Group 8 - Members:
-### Sue Puthearath
-### Seat Daro
-### Heng TiTi
-### Sok Den
+> - ### Sue Puthearath
+> - ### Seat Daro
+> - ### Heng TiTi
+> - ### Sok Den
 
 ## GitHub
 > - GitHub: https://github.com/sokdenspace/ufashion.git
@@ -18,17 +18,17 @@
 
 # Django frontend
 >
-> ### 1. Django frontend requirements
-> - Install python
+> ### Django frontend requirements
+> 1. Download and install python
 >
-> ### 2. Create python virtual environment
-> - python -m venv venv
+> ### Create python virtual environment
+> 2. python -m venv venv
 >
-> ### 3. Windows Activate virtualenv
-> - venv/Scripts/activate
+> ### Windows Activate virtualenv
+> 3. venv/Scripts/activate
 >
-> ### 4. Linux Activate virtualenv
-> - source venv/bin/activate
+> ### Linux Activate virtualenv
+> 4. source venv/bin/activate
 >
 > ### Generate requirements.txt file
 > - pip freeze > requirements
