@@ -10,9 +10,9 @@
 
 # Laravel api
 
-> - Generate laravel utilizes composer to manage its dependencies
+> ### Generate laravel utilizes composer to manage its dependencies
 > 1. composer install
-> - Run laravel
+> ### Run laravel
 > 2. php artisan serve
 
 <br>
