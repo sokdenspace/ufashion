@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend",
+    "\\api",
+    "\\api\\app\\Http\\Controllers",
+    "\\api\\database",
+    "\\api\\routes",
     "\\frontend",
     "\\frontend\\public"
   ],
-  "SelectedNode": "\\backend\\.env.example",
+  "SelectedNode": "\\api\\routes\\web.php",
   "PreviewInSolutionExplorer": false
 }
