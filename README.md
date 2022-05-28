@@ -5,11 +5,10 @@
 ### Sok Den
 
 ## GitHub
-- GitHub: https://github.com/sokdenspace/ufashion.git
-- Clone: git clone https://github.com/sokdenspace/ufashion.git
+> - GitHub: https://github.com/sokdenspace/ufashion.git
+> - Clone: git clone https://github.com/sokdenspace/ufashion.git
 
 # Laravel api
-
 > ### Generate laravel utilizes composer to manage its dependencies
 > 1. composer install
 > ### Run laravel
