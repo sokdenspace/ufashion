@@ -8,17 +8,18 @@
 - GitHub: https://github.com/sokdenspace/ufashion.git
 - Clone: git clone https://github.com/sokdenspace/ufashion.git
 
+## ---------- Laravel api ----------
+### Generate laravel utilizes composer to manage its dependencies
+- composer install
+### Run laravel
+- php artisan serve
 
------ Laravel api -----
-## Laravel Command-line
-### `composer install`
-
----- Django frontend ----
+## ---------- Django frontend ----------
 ## 'Django frontend requirements'
 ### Install python
 
 ### Create python virtual environment
-- python -m venv venv)
+- python -m venv venv
 
 ### Windows Activate virtualenv
 - venv/Scripts/activate
