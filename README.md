@@ -12,10 +12,10 @@
 
 
 # Laravel api
-> ### 1. Generate laravel utilizes composer to manage its dependencies
-> - composer install
-> ### 2. Run laravel project
-> - php artisan serve
+> ### Generate laravel utilizes composer to manage its dependencies
+> 1. composer install
+> ### Run laravel project
+> 2. php artisan serve
 
 
 # Django frontend
