@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\frontend",
+    "\\frontend\\public"
+  ],
+  "SelectedNode": "\\backend\\.env.example",
+  "PreviewInSolutionExplorer": false
+}
