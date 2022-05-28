@@ -6,7 +6,7 @@
 
 <br>
 
-## GitHub
+## GitHub repository
 > - GitHub: https://github.com/sokdenspace/ufashion.git
 > - Clone: git clone https://github.com/sokdenspace/ufashion.git
 
