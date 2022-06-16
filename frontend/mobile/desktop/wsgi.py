@@ -1,5 +1,5 @@
 """
-WSGI config for mobile project.
+WSGI config for desktop project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mobile.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'desktop.settings')
 
 application = get_wsgi_application()
