@@ -1,3 +1,10 @@
+// Settings
+if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+   window.location = "https://m.rupp.cambodiaedu.org/";
+}
+// End Settings
+
+
 (function ($) {
     "use strict";
     
