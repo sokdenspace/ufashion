@@ -6,7 +6,7 @@
 
 <br>
 
-# GitHub repository
+# Website URLs
 > - Desktop Site: www.rupp.cambodiaedu.org
 > - Mobile Site: m.rupp.cambodiaedu.org
 > - API Site: api.rupp.cambodiaedu.org
