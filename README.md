@@ -38,5 +38,5 @@
 > 4. source venv/bin/activate
 >
 > ### Generate requirements.txt file
-> > - pip freeze > requirements
+> > - pip freeze > requirements.txt
 > > - pip install -r requirements.txt
