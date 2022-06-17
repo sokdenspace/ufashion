@@ -34,7 +34,7 @@
 > ### Windows Activate virtualenv
 > 3. .env/Scripts/activate
 >
-> ### Linux Activate virtualenv
+> ### Linux/Ubuntu Activate virtualenv
 > 4. source .env/bin/activate
 >
 > ### Generate requirements.txt file
