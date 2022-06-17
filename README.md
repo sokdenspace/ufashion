@@ -29,13 +29,13 @@
 > 1. Download and install python
 >
 > ### Create python virtual environment
-> 2. python -m venv venv
+> 2. python -m venv .env
 >
 > ### Windows Activate virtualenv
-> 3. venv/Scripts/activate
+> 3. .env/Scripts/activate
 >
 > ### Linux Activate virtualenv
-> 4. source venv/bin/activate
+> 4. source .env/bin/activate
 >
 > ### Generate requirements.txt file
 > > - pip freeze > requirements.txt
