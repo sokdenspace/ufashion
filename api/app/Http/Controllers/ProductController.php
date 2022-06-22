@@ -2,9 +2,6 @@
 
 namespace App\Http\Controllers;
 
-// https://laravel.com/docs/9.x/eloquent-resources
-use App\Http\Resources\ProductResource;
-
 use App\Models\User;
 use App\Models\Product;
 use Illuminate\Http\Request;
