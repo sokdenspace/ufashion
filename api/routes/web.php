@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -34,6 +35,7 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::delete('/products/{id}', [ProductController::class, 'destroy']);
 	Route::post('/logout', [AuthController::class, 'logout']);
 });
+
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
