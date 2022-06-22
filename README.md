@@ -7,9 +7,9 @@
 <br>
 
 # Website URLs
-> - Desktop Version: https://www.rupp.cambodiaedu.org
-> - Mobile Version: https://m.rupp.cambodiaedu.org
-> - API Version: https://api.rupp.cambodiaedu.org
+> - Desktop Only - https://rupp.cambodiaedu.org
+> - Mobile Only - https://m.rupp.cambodiaedu.org
+> - API - https://api.rupp.cambodiaedu.org
 
 # GitHub repository
 > - GitHub: https://github.com/sokdenspace/ufashion.git
