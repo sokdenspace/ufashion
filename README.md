@@ -41,3 +41,6 @@
 > ### Generate requirements.txt file
 > > - pip freeze > requirements.txt
 > > - pip install -r requirements.txt
+
+# JSON Formatter Extension
+Chrome Extension - https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
