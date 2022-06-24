@@ -18,8 +18,9 @@
 
 # Laravel api
 > ### Generate laravel utilizes composer to manage its dependencies
-> 1. composer install
-> 2. composer update
+> 1. apt install composer
+> 2. composer install
+> 3. composer update
 > ### Run laravel project
 > 2. php artisan serve
 
