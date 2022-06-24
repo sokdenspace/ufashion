@@ -1,4 +1,4 @@
-MIT License
+RUPP License
 
 Copyright (c) 2022
 
