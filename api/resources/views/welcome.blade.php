@@ -11,6 +11,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <a href="/products">Button</a>
+        <div class="container">
+            <a href="https://api.rupp.cambodiaedu.org/products"><button class="btn btn1">Products</button></a>
+            <a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa"><button class="btn btn1">JSON Formatter</button></a>
+        </div>
     </body>
 </html>

@@ -1,66 +1,54 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #86b3fc;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ecf0f1;
 }
+
+.container {
+	perspective: 320px;
+}
+
 a {
-    text-decoration: none;
-    border: 3px solid yellow;
-    color: transparent;
-    padding: 40px 80px;
-    font-size: 28px;
-    font-family: sans-serif;
-    letter-spacing: 5px;
-    transition: all 0.5s;
-    position: relative;
+	text-decoration: none;
 }
-a:before {
-    content: "Go To API";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: yellow;
-    background: #a463ff;
-    font-size: 28px;
-    top: 0;
-    left: 100%;
-    font-family: sans-serif;
-    letter-spacing: 5px;
-    transition: all 1s;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    transform: scale(0) rotatey(0);
-    opacity: 0;
+
+.btn {
+	display: block;
+	margin: 40px 0;
+	width: 240px;
+	height: 80px;
+	border: none;
+	background-color: #00a8ff;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 6px;
+	outline: none;
+	cursor: pointer;
+	transition: .3s linear;
 }
-a:hover:before {
-    transform: scale(1) rotatey(360deg);
-    left: 0;
-    opacity: 1;
+
+.btn1:hover {
+	transform: rotateX(10deg);
+	box-shadow: 0 7px 7px #164056;
 }
-a:after {
-    content: "Products";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: yellow;
-    background: #a463ff;
-    font-size: 28px;
-    top: 0;
-    left: 0;
-    font-family: sans-serif;
-    letter-spacing: 5px;
-    transition: all 1s;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    transform: scale(1) rotatey(0);
-    opacity: 1;
+
+/*
+.btn2:hover {
+	transform: rotateX(-15deg);
+	box-shadow: 0 -15px 15px #00a8ff;
 }
-a:hover:after {
-    transform: scale(0) rotatey(360deg);
-    left: -100%;
-    opacity: 0;
+
+.btn3:hover {
+	transform: rotateY(15deg);
+	box-shadow: -15px 0 15px #00a8ff;
 }
+
+.btn4:hover {
+	transform: rotateY(-15deg);
+	box-shadow: 15px 0 15px #00a8ff;
+}
+*/
