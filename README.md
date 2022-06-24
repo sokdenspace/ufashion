@@ -45,3 +45,9 @@
 
 # JSON Formatter Extension
 Chrome Extension - https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
+
+# To compile css js to public folder
+> - Laravel Docs - https://laravel.com/docs/5.8/frontend
+> 1. npm install
+> 1. npm install laravel-mix@latest --save-dev
+> 2. npm run dev
