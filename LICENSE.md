@@ -1,10 +1,10 @@
+RUPP License
+
 # Group 8 - Members:
 - ### Sue Puthearath
 - ### Seat Daro
 - ### Heng TiTi
 - ### Sok Den
-
-RUPP License
 
 Copyright (c) 2022 RUPP
 
