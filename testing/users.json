@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Product One",
+        "email": "sokden1@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Product Two",
+        "email": "sokden2@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Product Three",
+        "email": "sokden3@gmail.com"
+    }
+]

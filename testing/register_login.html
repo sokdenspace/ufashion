@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width">
+		    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="register_login.css">
+	</head>
+	<body>
+
+      <div id="output"></div>
+
+      <form id="addProducts">
+          <div>
+              <input type="text" id="name" placeholder="Name">
+          </div>
+          <div>
+            <input type="email" id="email" placeholder="Email">
+          </div>
+          <div>
+            <input type="password" id="password" placeholder="Password">
+          </div>
+          <div>
+            <input type="password" id="password_confirmation" placeholder="Password Confirmation">
+          </div>
+          <input type="submit" value="Submit">
+
+      </form>
+
+      <!-- JavaScript -->
+      <script>
+        document.getElementById('addProducts').addEventListener('submit', addProducts);
+
+        function addProducts(e){
+          e.preventDefault();
+
+          let name = document.getElementById('name').value;
+          let email = document.getElementById('email').value;
+          let password = document.getElementById('password').value;
+          let password_confirmation = document.getElementById('password_confirmation').value;
+
+          const API_URL = 'http://127.0.0.1:8000/api/register';
+          fetch(API_URL, {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json, text/plain, */*',
+              'Content-Type':'application/json'
+            },
+            body:JSON.stringify({name:name, email:email, password:password, password_confirmation:password_confirmation})
+          })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log(data);
+          })
+          .catch((data) => {
+            console.log('ERROR')
+          });
+        }
+      </script>
+
+  </body>
+</html>
