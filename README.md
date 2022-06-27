@@ -16,7 +16,7 @@
 > - Clone: git clone https://github.com/sokdenspace/ufashion.git
 
 
-# Laravel api
+# Laravel API
 > ### Generate laravel utilizes composer to manage its dependencies
 > 1. apt install composer
 > 2. composer install
@@ -46,8 +46,11 @@
 # JSON Formatter Extension
 Chrome Extension - https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
 
-# To compile css js to public folder
+# To compile CSS js to the public folder
 > - Laravel Docs - https://laravel.com/docs/5.8/frontend
 > 1. npm install
 > 1. npm install laravel-mix@latest --save-dev
 > 2. npm run dev
+
+# Upload file to cloud (filesystem)
+> - Filesystem docs - https://laravel.com/docs/9.x/filesystem
